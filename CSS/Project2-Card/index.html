@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+
+    <style>
+        *{
+            margin:0;
+            height: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width:100vw;
+            height: 100vh;
+
+            background-image: radial-gradient( circle 341px at 10% 20%,  rgba(132,94,194,1) 0%, rgba(196,243,251,1) 90% );
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card{
+            width: 360px;
+            min-height: 570px;
+            background-color: aliceblue;
+            border-radius: 20px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap:30px;
+            padding: 20px;
+        }
+        .card img{
+            height: 57%;
+        }
+        
+        .card h2{
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        
+        .card p{
+            font-size:1.2em;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+
+        <div class="card">
+            <img src="qr.png" alt="qr"/>
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta blanditiis earum minus tempore fugit dolorum voluptatibus quod assumenda?</p>
+        </div>
+
+    </div>
+</body>
+</html>
