@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card 2</title>
+
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(115, 201, 198);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card{
+            width: 300px;
+            height: 500px;
+            background-color: aliceblue;
+            display: flex;
+            flex-direction: column;
+            border-radius: 20px;
+        }
+
+        .card img{
+            border-radius: 20px 20px 0px 0px;
+            height: 30%;
+            
+        }
+        .card p{
+            padding-left: 10%;
+            padding-right: 10%;
+            text-align: center;
+        }
+        h2{
+            padding-top: 5%;
+        }
+        
+
+        .plan{
+            width: 85%;
+            height: 8%;
+            border-radius: 10px;
+            background-color: rgb(161, 225, 225);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .plan img{
+            height: 85%;
+        }
+
+        .proceed{
+            background-color: rgb(15, 15, 67);
+            color: aliceblue;
+            height: 6%;
+            border-radius: 10px;
+            width: 85%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow:  10px 10px 50px black;
+        }
+
+        
+
+        .center{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap:5%;
+        }
+
+        a{
+            text-decoration: none;
+            color:rgb(7, 7, 142)
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="img.png" alt="img">
+            <div class="center">
+                <h2>Order Summary</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum molestiae fugit inventore ipsam est quia enim accusantium explicabo in! Natus?</p>
+
+                <div class="plan">
+                    <img src="musicLogo.png" alt="">
+                    <p>Annual Plan
+                        <br>
+                        $99.9/year
+                    </p>
+                    <a href="">change</a>
+                </div>
+                <div class="proceed"><p>Proceed to Payment</p></div>
+                <a href="" class="cancel">Cancel Order</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
