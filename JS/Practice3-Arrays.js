@@ -47,6 +47,25 @@ arr.forEach((value, index) => {
     // console.log(value, index);
 })
 
-for (let i in arr) {
-    console.log(i);
+// for (let i in arr) {
+//     console.log(i);
+// }
+
+let arr1 = [10, 20, 30, 40]
+for (let i of arr1) {
+    // console.log(i);
 }
+
+
+arr = [10, 20, 30, 40, 50];
+
+function getSum(arr) {
+    let len = arr.length;
+    let sum = 0;
+    for (let i = 0; i < len; i++){
+        sum = sum + arr[i];
+    }
+    return sum;
+}
+
+console.log(getSum(arr));
